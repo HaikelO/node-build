@@ -5,6 +5,7 @@ RUN apk add --update \
 	bash \
 	npm \
 	git \
+	curl \
 	&& rm -rf /var/cache/apk/*
 
 CMD ["bash"]
