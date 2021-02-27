@@ -7,5 +7,5 @@ RUN apk add --update \
 	git \
 	curl \
 	&& rm -rf /var/cache/apk/*
-
-CMD ["bash"]
+	
+ENTRYPOINT ["docker-entrypoint.sh"]
